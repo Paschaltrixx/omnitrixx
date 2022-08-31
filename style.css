@@ -1,0 +1,73 @@
+body{
+    font-family: 'roboto';
+    background-color: rgb(8, 27, 27);
+}
+.sale{
+    color:white;
+    background-color: red;
+    text-align: center;
+    width:80px;
+    border-radius: 10%;
+    margin-left:40px;
+    margin-top:30px;
+}
+.product-img{
+    height:300px;
+    width:300px;
+    object-fit: cover;
+    margin-left: 110px;
+    }
+
+.container{
+    
+    margin: auto;
+    margin-left: 32px;
+    width: 500px;
+    height:500px;
+    border: 1px solid yellow;
+    box-shadow:3px 0px gray;
+    box-sizing: border-box; /*padding and margin doesn't influence general size*/ 
+}
+.title{
+    font-size: large;
+    
+}
+ul{
+    list-style: none;
+    margin-left:20px;
+    padding:0px;
+}
+li{
+    float:left;
+    margin-right:5px;
+}
+#yellow{
+    width: 20px;
+    height:20px;
+    background-color: yellow;
+    border-radius:100%;
+    border: 1px black solid;
+}
+#red{
+    width: 20px;
+    height:20px;
+    background-color: red;
+    border-radius:100%;
+    border: 1px black solid;}
+#blue{
+    width: 20px;
+    height:20px;
+    background-color: blue;
+    border-radius:100%;
+    border: 1px black solid;
+}
+#orange{
+    width: 20px;
+    height:20px;
+    background-color: orange;
+    border-radius:100%;
+    border: 1px orange solid;
+}
+p{
+    margin-left:20px;
+}
